@@ -135,18 +135,33 @@
 # Question 9th
 # ======================== Strong number or not
 
-import math
+# import math
 
-num = int(input("Enter a number: "))
-temp = num
-sum_fact = 0
+# num = int(input("Enter a number: "))
+# temp = num
+# sum_fact = 0
 
-while temp > 0:
-    digit = temp % 10
-    sum_fact += math.factorial(digit)
-    temp //= 10
+# while temp > 0:
+#     digit = temp % 10
+#     sum_fact += math.factorial(digit)
+#     temp //= 10
 
-if sum_fact == num:
-    print("Strong Number")
-else:
-    print("Not a Strong Number")
+# if sum_fact == num:
+#     print("Strong Number")
+# else:
+#     print("Not a Strong Number")
+
+
+
+# Question 10th
+# ========================  Square of a number by user input
+
+# value = int(input("Enter a number value:"))
+# squre = int(input("Enter a number exponent:"))
+
+# power = value
+
+# for i in range(1,squre):
+#     power *= value
+
+# print(f"{value} to the power {squre} is {power}")
