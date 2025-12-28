@@ -92,15 +92,61 @@
 # Question 6th
 # ======================== n number sum but even_sum alag and odd_sum alag
 
-n = int(input("Enter a number:"))
+# n = int(input("Enter a number:"))
 
-even_sum = 0
-odd_sum = 0
+# even_sum = 0
+# odd_sum = 0
 
-for i in range(1,n+1):
-    if i % 2 == 0:
-        even_sum += i
-    else:
-        odd_sum += i
+# for i in range(1,n+1):
+#     if i % 2 == 0:
+#         even_sum += i
+#     else:
+#         odd_sum += i
 
-print(f"the even sum is {even_sum} and the odd sum is {odd_sum}")
+# print(f"the even sum is {even_sum} and the odd sum is {odd_sum}")
+
+
+
+# Question 7th
+# ======================== Find factors of a number
+
+# n = int(input("Enter a number:"))
+
+# for i in range(1,n+1):
+#     if n % i == 0:
+#         print(i)
+
+
+
+# Question 8th
+# ======================== Sum of factors of a number
+
+# n = int(input("Enter a number which you want sum of factors:"))
+
+# sum = 0
+# for i in range(1,n+1):
+#     if n % i == 0:
+#         sum += i
+
+# print(f"the sum of factors of {n} is {sum}")
+
+
+
+# Question 9th
+# ======================== Strong number or not
+
+import math
+
+num = int(input("Enter a number: "))
+temp = num
+sum_fact = 0
+
+while temp > 0:
+    digit = temp % 10
+    sum_fact += math.factorial(digit)
+    temp //= 10
+
+if sum_fact == num:
+    print("Strong Number")
+else:
+    print("Not a Strong Number")
