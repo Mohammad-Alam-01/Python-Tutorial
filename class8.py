@@ -11,3 +11,7 @@ def generate_password(length=12):
 # User se password length lena
 length = int(input("Enter password length: "))
 print("Generated Password:", generate_password(length))
+
+
+
+sd fhlbsfv vzdfvnzdlyvbzdfbgvudfhzgdznvz g snguysghgsngb ;jm uis g ghblyga g 
