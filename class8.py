@@ -1,17 +1,9 @@
-# class 8
+# ====================================================== Question 1st
+# print each digit (Reverse Order)
+# break a number  into individual digit and print them string from the last digit
 
-import random
-import string
-
-def generate_password(length=12):
-    characters = string.ascii_letters + string.digits + string.punctuation
-    password = ''.join(random.choice(characters) for _ in range(length))
-    return password
-
-# User se password length lena
-length = int(input("Enter password length: "))
-print("Generated Password:", generate_password(length))
-
-
-
-sd fhlbsfv vzdfvnzdlyvbzdfbgvudfhzgdznvz g snguysghgsngb ;jm uis g ghblyga g 
+a = int(input("Enter a number: which you want to reverse: "))
+123
+while a > 0:
+    print (a % 10)
+    a =  a // 10
