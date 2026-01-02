@@ -62,19 +62,19 @@
 # Automorphic Number
 # Input a number and check if it is an automorphic number or not
 
-a = int(input("Enter a number which you wants to check: "))
-dupl = a
-square = a ** 2
+# a = int(input("Enter a number which you wants to check: "))
+# dupl = a
+# square = a ** 2
 
-count = 0
-while a > 0:
-    count += 1
-    a = a // 10
+# count = 0
+# while a > 0:
+#     count += 1
+#     a = a // 10
 
-extract = square % (10**count)
+# extract = square % (10**count)
 
-if extract == dupl:
-    print("It is an automorphic number")
+# if extract == dupl:
+#     print("It is an automorphic number")
 
-else:
-    print("It is not an aotumorphic number")
+# else:
+#     print("It is not an aotumorphic number")
