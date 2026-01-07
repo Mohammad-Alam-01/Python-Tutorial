@@ -14,3 +14,28 @@
 # ================================================ parameters and arguments
 # =========================================================================
 
+# def addition(a,b):
+#     print(a+b)
+
+# addition(5,10) # 5 and 10 are arguments
+# addition(20,30)
+# addition(-5,15)
+
+
+# palindrome checker using function
+
+def palindrome(x):
+    rev = 0
+    copy = x
+    while x > 0:
+        rev = (rev * 10) + (x % 10)
+        x = x // 10
+
+    if rev == copy:
+        return True
+    else:
+        return False
+        
+print(palindrome(1221))
+print(palindrome(123))
+print(palindrome(454))
