@@ -51,7 +51,7 @@
 # addition(b=10 , a=5) # keyword arguments
 # addition(a=20 , b=30)
 
-def Greet():
-    print("Welcome, Harsh!")
+# def Greet():
+#     print("Welcome, Harsh!")
 
-Greet()
+# Greet()
