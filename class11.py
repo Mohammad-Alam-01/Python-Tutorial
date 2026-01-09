@@ -53,17 +53,61 @@
 # print(b)
 
 
-import copy
-# deep copy
-a = [[10,20],
-     [30,40]]
+# import copy
+# # deep copy
+# a = [[10,20],
+#      [30,40]]
 
-b1 = a.copy()  # shallow copy
-b2 = copy.deepcopy(a)  # deep copy
+# b1 = a.copy()  # shallow copy
+# b2 = copy.deepcopy(a)  # deep copy
 
-b1[0] [0] = 1000
-b2[1] [1] = 4000
+# b1[0] [0] = 1000
+# b2[1] [1] = 4000
 
-print(a)
-print(b1)
-print(b2)
+# print(a)
+# print(b1)
+# print(b2) 
+
+
+
+# # ========== List treversing ==========
+# # treversing a list using for loop
+# # ========== mothod 1: ==========
+
+# my_list = [10, 20, 30, 40]
+
+# for i in range(len(my_list)):
+#     print(my_list[i] )
+
+
+
+
+
+# # ========== list methods : ==========
+# append(), 
+# insert(), 
+# extend(), 
+# remove(), 
+# pop(), 
+# clear(), 
+# index(), 
+# count(), 
+# sort(), 
+# reverse()
+
+my_list = [10, 20, 30, 40 , 10 , 10 ,  20]
+
+print(my_list.count(10))  # count occurrences of 10 in the list
+
+
+# my_list.append(50) # append 50 at the end
+# my_list.clear() # remove all items from the list
+# my_list.insert(1, 25) # insert 25 at index 1
+# my_list.remove(30) # remove 30 from the list
+# my_list.pop() # remove last item from the list
+# print(my_list.count(10)) # count 10 in the list
+# my_list.sort() # sort the list
+# my_list.reverse() # reverse the list
+# my_list.extend([50, 60, 70]) # extend the list by adding multiple items
+# print(my_list) 
+
