@@ -9,30 +9,41 @@
 # print(f"Average is: {sum / len(my_list)}")
 
 
-# Question 2: Maximum element with index
-# ======================================
+# Question 2: WAP to find Maximum element with index
+# ==================================================
 
-my_list = [10, 20, 30, 40, 70, 25, 5, 60, 15]
-
-max_value = my_list[0]
-max_index = 0
-
-for i in range(len(my_list)):
-    if my_list[i] > max_value:
-        max_value = my_list[i]
-        max_index = i
-
-print("maximum value is: ", max_value)
-print("index of maximum value is: ", max_index)
-
+# my_list = [10, 20, 30, 40, 70, 25, 5, 60, 15]
 
 # max_value = my_list[0]
 # max_index = 0
 
-# for i in range(1,len(my_list)):
+# for i in range(len(my_list)):
 #     if my_list[i] > max_value:
 #         max_value = my_list[i]
 #         max_index = i
 
-# print("Maximum value is:", max_value)
-# print("Index of maximum value is:", max_index)
+# print(f"Maximum value is: {max_value} at index {max_index}")
+
+
+
+
+
+# # Question 3: WAP to find Second Minimum element with index
+# # =========================================================
+
+
+my_list = [10, 20, 30, 40, 79, 70, 25, 5, 80, 15]
+
+max_value = my_list[0]
+max_value2 = my_list[0]
+max_index = 0
+max_index2 = 0
+
+for i in range(len(my_list)):
+    if my_list[i] > max_value:
+        max_value2 = max_value
+        max_value = my_list[i]
+        max_index2 = max_index
+        max_index = i
+
+print(f"first maximum Value is: {max_value} at index {max_index} && second maximum Value is: {max_value2} at index {max_index2}")
