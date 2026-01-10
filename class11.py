@@ -97,12 +97,12 @@
 
 my_list = [10, 20, 30, 40 , 10 , 10 ,  20]
 
-print(my_list.count(10))  # count occurrences of 10 in the list
+# print(my_list.count(10))  # count occurrences of 10 in the list
 
 
 # my_list.append(50) # append 50 at the end
 # my_list.clear() # remove all items from the list
-# my_list.insert(1, 25) # insert 25 at index 1
+# my_list.insert(2, 25) # insert 25 at index 1
 # my_list.remove(30) # remove 30 from the list
 # my_list.pop() # remove last item from the list
 # print(my_list.count(10)) # count 10 in the list
@@ -111,3 +111,7 @@ print(my_list.count(10))  # count occurrences of 10 in the list
 # my_list.extend([50, 60, 70]) # extend the list by adding multiple items
 # print(my_list) 
 
+my_list.clear()
+my_list.append(100)
+my_list.insert(0, 50)
+print(my_list)
