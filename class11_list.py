@@ -36,14 +36,22 @@ my_list = [10, 20, 30, 40, 79, 70, 25, 5, 80, 15]
 
 max_value = my_list[0]
 max_value2 = my_list[0]
+max_value3 = my_list[0]
 max_index = 0
 max_index2 = 0
+max_index3 = 0
 
 for i in range(len(my_list)):
     if my_list[i] > max_value:
+        max_value3 = max_value2
         max_value2 = max_value
         max_value = my_list[i]
+        max_index3 = max_index2
         max_index2 = max_index
         max_index = i
 
-print(f"first maximum Value is: {max_value} at index {max_index} && second maximum Value is: {max_value2} at index {max_index2}")
+    elif my_list[i] > max_value2 and my_list[i] != max_value:
+         max_value3 = max_value2
+         max_value2 = my_list[i]
+
+print(f"first maximum Value is: {max_value} at index {max_index} && second maximum Value is: {max_value2} at index {max_index2} && third maximum Value is: {max_value3} at index {max_index3}") 
