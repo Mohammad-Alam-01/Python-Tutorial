@@ -58,16 +58,29 @@
 # # Question 4: WAP to cheeck a list is sorted or not
 # # =========================================================
 
-my_list = [10, 9, 30, 40, 50, 60, 70, 80, 90, 100]
+# my_list = [10, 9, 30, 40, 50, 60, 70, 80, 90, 100]
+
+# for i in range(len(my_list)-1):
+#     if my_list[i] < my_list[i+1]:
+#         continue
+#     else:
+#         print("list is not sorted")
+#         break
+# else:
+#     print("list is sorted")
+
+
+
+
+# # Question 5: WAP to left rotate a list by 1 elements
+# # =========================================================
+
+my_list = [10, 20, 30, 40, 50]
 
 for i in range(len(my_list)-1):
-    if my_list[i] < my_list[i+1]:
-        continue
-    else:
-        print("list is not sorted")
-        break
-else:
-    print("list is sorted")
+    my_list[i], my_list[i+1] = my_list[i+1], my_list[i]
+
+print("Left rotated list is:", my_list)
 
 
 
