@@ -142,3 +142,4 @@ print("Reversed list is:", my_list)
 
 
 # # Question 8: WAP to find Third Maximum element with index
+
