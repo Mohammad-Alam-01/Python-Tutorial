@@ -13,11 +13,18 @@
 
 # # we can't change value of tuple
 
-tuple = (10,20,30,40,50)
+# tuple = (10,20,30,40,50)
 # tuple[2] = 100  # TypeError: 'tuple' object does not support item assignment
-print(tuple)
+# print(tuple)
 
-# # we can store same value mutiple time in tuple
+
+# # tuple unpaking
+tuple = (10,20,30)
+a, b, c = tuple # tuple unpaking
+print(tuple)
+print(a, b, c)
+
+
 
 
 
