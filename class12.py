@@ -52,3 +52,5 @@ print(tuple.count(10))  # output 4
 
 tuple = (10,20,30,40,50)
 print(tuple.index(30)) #Output 2
+
+# 2nd method index()
